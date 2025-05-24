@@ -8,8 +8,8 @@ body {  display: flex;
 #prim08, #prim09, #prim10, #prim11, #prim12, #prim13, #prim14, 
 #prim15, #prim16, #prim17, #prim18, #prim19, #prim20
 {display: none;}
-
-.butnfon1, .butnfon2{ 
+.btn{margin-top: .3rem;}
+.butnfon{ 
 position: absolute; z-index: 3;
 align-items: center;
 justify-content: space-between;  
@@ -17,8 +17,8 @@ opacity: 0;
 cursor: pointer;
 transition: opacity 0.3s ease-in-out, color 0.3s ease-in-out;
 }
-#butnfon2{ padding-top: 3rem; }
-#butnfon1:hover, #butnfon2:hover {
+.butnfon2{ margin-top: 3rem; }
+#butnfon:hover {
   opacity: 1;
   color: black; 
 }
