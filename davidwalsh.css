@@ -60,6 +60,16 @@ transition: opacity 0.3s ease-in-out, color 0.3s ease-in-out;
   --animate-duration: 20s;
 }
 
+#postdelay{
+  position: absolute;
+  margin-top: -1rem; 
+  margin-left: 32.5rem;  
+  opacity: 0; 
+  animation: fadeIn ease-in 1; 
+  animation-fill-mode: forwards;
+  animation-duration: 21s; 
+}
+
 /* Запрет прокрутки */
 /* html, body {margin: 0; height: 100%; overflow: hidden} */
 
