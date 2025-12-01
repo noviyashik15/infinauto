@@ -10,9 +10,14 @@ width: 950px;
 background-color: rgb(168, 205, 229); 
 color: black; 
 text-align: center;
-border-radius: 20px; 
-display: none; 
+border-radius: 20px; /* display: none;  */
 display: block;
+opacity: 0;
+animation: ani 2.6s forwards;   
+}
+@keyframes ani {
+0% {opacity: 0;}
+100% {opacity: 1;}
 }
 
 #butn05, #butn06, #butn07 {
@@ -27,9 +32,10 @@ width: 1000px;
 background-color: rgb(168, 205, 229); 
 color: black; 
 text-align: center;
-border-radius: 20px; 
-display: none; 
+border-radius: 20px; /* display: none;  */
 display: block;
+opacity: 0;
+animation: ani 2.6s forwards;   
 }
 
 #butn08 {
@@ -44,9 +50,10 @@ width: 1200px;
 background-color: rgb(168, 205, 229); 
 color: black; 
 text-align: center;
-border-radius: 20px; 
-display: none; 
+border-radius: 20px; /* display: none;  */
 display: block;
+opacity: 0;
+animation: ani 2.6s forwards;   
 }
     
 #butn09 {
@@ -61,9 +68,10 @@ width: 1000px;
 background-color: rgb(168, 205, 229); 
 color: black; 
 text-align: center;
-border-radius: 20px; 
-display: none; 
+border-radius: 20px; /* display: none;  */
 display: block;
+opacity: 0;
+animation: ani 2.6s forwards;   
 }
 
 #butn10 {
@@ -78,9 +86,10 @@ width: 900px;
 background-color: rgb(168, 205, 229); 
 color: black; 
 text-align: center;
-border-radius: 20px; 
-display: none; 
+border-radius: 20px; /* display: none;  */
 display: block;
+opacity: 0;
+animation: ani 2.6s forwards;   
 }
 
 #butn11, #butn12, #butn13, #butn14 {
@@ -95,9 +104,10 @@ width: 1000px;
 background-color: rgb(168, 205, 229); 
 color: black; 
 text-align: center;
-border-radius: 20px; 
-display: none; 
+border-radius: 20px; /* display: none;  */
 display: block;
+opacity: 0;
+animation: ani 2.6s forwards;   
 }
 
 #butn15 {
@@ -112,9 +122,10 @@ width: 1350px;
 background-color: rgb(168, 205, 229); 
 color: black; 
 text-align: center;
-border-radius: 20px; 
-display: none; 
+border-radius: 20px; /* display: none;  */
 display: block;
+opacity: 0;
+animation: ani 2.6s forwards;   
 }
 
 #butn16, #butn17{
@@ -129,9 +140,10 @@ width: 950px;
 background-color: rgb(168, 205, 229); 
 color: black; 
 text-align: center;
-border-radius: 20px; 
-display: none; 
+border-radius: 20px; /* display: none;  */
 display: block;
+opacity: 0;
+animation: ani 2.6s forwards;   
 }
 
 #butn18, #butn19, #butn20 {
@@ -146,13 +158,10 @@ width: 1000px;
 background-color: rgb(168, 205, 229); 
 color: black; 
 text-align: center;
-border-radius: 20px; 
-display: none; 
+border-radius: 20px; /* display: none;  */
 display: block;
+opacity: 0;
+animation: ani 2.6s forwards;   
 }
-
-
-
-
 
 

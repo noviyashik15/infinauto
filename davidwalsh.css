@@ -8,7 +8,7 @@ body {  display: flex;
 #prim08, #prim09, #prim10, #prim11, #prim12, #prim13, #prim14, 
 #prim15, #prim16, #prim17, #prim18, #prim19, #prim20
 {display: none;}
-.btn{margin-top: .3rem;}
+/* .btn{margin-top: .3rem;} */
 .butnfon{ 
 position: absolute; z-index: 3;
 align-items: center;
