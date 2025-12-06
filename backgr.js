@@ -139,6 +139,12 @@ button20.addEventListener('click', function() {
   this.style.color = 'white';
 });
 
+const button90 = document.getElementById('butn90');
+button90.addEventListener('click', function() {
+  obnuleniefon();
+  obnulenie2();
+});
+
 var obnuleniefon = function(){
   document.getElementById("prim01").style.display = "none";  
   document.getElementById("prim02").style.display = "none";  
@@ -161,7 +167,6 @@ var obnuleniefon = function(){
   document.getElementById("prim19").style.display = "none";  
   document.getElementById("prim20").style.display = "none";  
 }
-
 var obnulenie2 = function(){
   button1.style.color = 'red';
   button2.style.color = 'red';
